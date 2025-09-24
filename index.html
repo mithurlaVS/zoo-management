@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Protector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  
+</head>
+<body>
+  <!-- All your existing HTML content remains exactly the same -->
+  <div class="container">
+    <h1>Protect Our Endangered Wildlife</h1>
+
+    <!-- Mammals Section -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">
+          <i class="fas fa-paw"></i>
+        </div>
+        <h2 class="category-title">Mammals in Danger</h2>
+      </div>
+      <div class="species-grid" id="mammals"></div>
+    </div>
+
+    <!-- Birds Section -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">
+          <i class="fas fa-dove"></i>
+        </div>
+        <h2 class="category-title">Birds at Risk</h2>
+      </div>
+      <div class="species-grid" id="birds"></div>
+    </div>
+
+    <!-- Reptiles Section -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">
+          <i class="fas fa-sticky-note"></i>
+        </div>
+        <h2 class="category-title">Reptiles in Peril</h2>
+      </div>
+      <div class="species-grid" id="reptiles"></div>
+    </div>
+
+    <!-- Aquatic Section -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">
+          <i class="fas fa-fish"></i>
+        </div>
+        <h2 class="category-title">Aquatic Life Threatened</h2>
+      </div>
+      <div class="species-grid" id="aquatics"></div>
+    </div>
+
+    <!-- Insects Section -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">
+          <i class="fas fa-bug"></i>
+        </div>
+        <h2 class="category-title">Insects in Decline</h2>
+      </div>
+      <div class="species-grid" id="insects"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <button class="modal-close" id="close-modal">
+          <i class="fas fa-times"></i>
+        </button>
+        <img class="modal-image" id="species-img" src="" alt="">
+        <div class="modal-body">
+          <h2 class="modal-title" id="species-title"></h2>
+          <ul class="conservation-list" id="species-info"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js\script.js"></script>
+</body>
+</html>
